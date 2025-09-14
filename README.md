@@ -9,7 +9,8 @@ Welcome to **Chess Mastery Hub** – a web-based learning platform designed to h
 
 ## 📸 Preview
 
-<img width="2449" height="969" alt="Screenshot 2025-09-14 at 19 31 21" src="https://github.com/user-attachments/assets/d6c0e403-472d-4cad-9853-62a9d1b0cc63" />
+<img width="2560" height="1353" alt="Screenshot 2025-09-14 at 19 41 28" src="https://github.com/user-attachments/assets/eeb1d357-b6ab-4661-92e0-332ebc805379" />
+
 
 
 ---
