@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">♟ChessMastery Hub</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link active p-3"
+                aria-current="page"
+                href="#coursesec"
+                >Courses</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="signin.html"
+                ><button class="btn btn-success">Login</button>
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="signup.html"
+                ><button class="btn btn-warning">SignUp</button></a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="support.html"
+                ><button class="btn btn-info">Support</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- creating header -->
+    <div class="container-fluid header text-light p-5">
+      <div class="row g-4">
+        <div class="col p-3 col-sm-6 col-md-6 col-12">
+          <h1 class="display-3 fw-bolder">Master Chess, Your Way</h1>
+        </div>
+        <div class="col p-3 col-sm-6 col-md-6 col-12">
+          <p class="fs-5">
+            Discover expert-led courses to elevate your gitme from beginner to
+            grandmaster. Unlock strategies, tactics, and insights from the
+            world's best chess minds!
+          </p>
+          <a href="#coursesec"
+            ><button class="btn btn-warning p-2 my-3 fs-5">
+              Browse Courses
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid p-5 text-center"
+      style="background-color: beige"
+    >
+      <h1 class="my-3">Find Your Perfect Course</h1>
+      <p class="text-secondary">
+        Filter courses by skill level or specific chess topics to match your
+        learning goals.
+      </p>
+
+      <input
+        type="text"
+        placeholder="Search courses (e.g., Sicilian Defense, King's Gambit)"
+        style="
+          width: 70%;
+          padding: 10px;
+          border-radius: 10px;
+          outline: none;
+          border: 1px solid;
+        "
+      />
+      <div class="container-fluid text-center my-5">
+        <h3 class="text-secondary my-3">By Skill Level</h3>
+        <div class="row gx-4 justify-content-center d-flex">
+          <div class="col col-sm-6 col-12 col-md-4 skill p-3 m-2">
+            <h1>👶</h1>
+            <h3>Beginner</h3>
+            <p class="fs-4">Start your chess journey here.</p>
+          </div>
+          <div class="col skill col-sm-6 col-12 col-md-4 p-3 m-2">
+            <h1>🎓</h1>
+            <h3>Intermediate</h3>
+            <p class="fs-4">Sharpen your existing skills.</p>
+          </div>
+          <div class="col skill col-sm-6 col-12 col-md-4 p-3 m-2">
+            <h1>🧠</h1>
+            <h3>Advanced</h3>
+            <p class="fs-4">Master complex strategies.</p>
+          </div>
+        </div>
+        <h3 class="text-secondary my-3">By Topic</h3>
+        <div class="row gx-4 justify-content-center d-flex">
+          <div class="col col-sm-6 col-12 col-md-4 skill p-3 m-2">
+            <h1>📖</h1>
+            <h3>Openings</h3>
+            <p class="fs-4">Learn powerful opening theories.</p>
+          </div>
+          <div class="col skill col-sm-6 col-12 col-md-4 p-3 m-2">
+            <h1>🛡️</h1>
+            <h3>Endgames</h3>
+            <p class="fs-4">Dominate the final phase of the game.</p>
+          </div>
+          <div class="col skill col-sm-6 col-12 col-md-4 p-3 m-2">
+            <h1>💡</h1>
+            <h3>Strategy</h3>
+            <p class="fs-4">Develop long-term plans and thinking</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- courses -->
+    <div class="container courses" id="coursesec">
+      <div class="row g-4 justify-content-between">
+        <div class="col">
+          <div class="card fixed-size">
+            <img
+              src="https://chess-en-passant.com/wp-content/uploads/2022/10/Chess-for-Beginners-How-to-Play-A-Complete-Beginners-Guide.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Complete Beginners Guide to Chess</h5>
+              <p class="card-text text-muted">
+                Learn the rules, basic tactics, and fundamental strategies to
+                start playing chess confidently.
+              </p>
+              <p>Instructor:GM Magnus Carlsen</p>
+              <p class="text-muted">Duration: 8 hours</p>
+              <p class="lead">£49.99</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card fixed-size">
+            <img
+              src="https://chessklub.com/wp-content/uploads/2020/11/sicilian-defense-scaled.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Mastering Chess Openings: Sicilian Defense
+              </h5>
+              <p class="card-text text-muted">
+                Deep dive into the popular Sicilian Defense, exploring key
+                variations and plans for Black.
+              </p>
+              <p>Instructor:GM Hikaru Nakamura</p>
+              <p class="text-muted">Duration: 12 hours</p>
+              <p class="lead">£79.99</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card fixed-size">
+            <img
+              src="https://images.chesscomfiles.com/uploads/v1/article/11820.0839297a.5000x5000o.ff9d2dff7315.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Advanced Endgame Strategies</h5>
+              <p class="card-text text-muted">
+                Unlock the secrets of complex endgames. Learn to convert
+                advantages and save difficult positions.
+              </p>
+              <p>Instructor:GM Fabiano Caruana</p>
+              <p class="text-muted">Duration: 15 hours</p>
+              <p class="lead">£99.99</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card fixed-size">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1200/1*CJnoH4xW9C-vtKw2Im7K5w.jpeg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Chess Tactics Bootcamp: Sharpen Your Vision
+              </h5>
+              <p class="card-text text-muted">
+                A comprehensive training program to improve your tactical
+                awareness and calculation skills.
+              </p>
+              <p>Instructor:IM Anna Rudolf</p>
+              <p class="text-muted">Duration: 10 hours</p>
+              <p class="lead">£69.99</p>
+              <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonal section -->
+    <div class="testimonal">
+      <h1 class="my-5 text-center">What Our Students Say</h1>
+      <div class="box">
+        <div class="row gx-4 justify-content-center d-flex">
+          <div class="col skill-student col-sm-6 col-12 col-md-4 p-5 m-2">
+            <img
+              class="pfp"
+              src="https://www.bradford.ac.uk/media-v8/site/new-students/New-students-mobile.jpg"
+              alt=""
+            />
+            <p class="fs-3 title">Alice Johnson</p>
+            <p class="text-light">
+              <i>Student of "Beginners Guide to Chess"</i>
+            </p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="fs-4">
+              <q
+                ><i
+                  >This platform transformed my game! The beginner's course was
+                  incredibly clear and engaging. Highly recommended.</i
+                ></q
+              >
+            </p>
+          </div>
+          <div class="col skill-student col-sm-6 col-12 col-md-4 p-5 m-2">
+            <img
+              class="pfp"
+              src="https://www.roehampton.ac.uk/globalassets/images/student-support/study-support/study-support-hero.jpg?width=750&quality=100"
+              alt=""
+            />
+            <p class="fs-3 title">Robert Smith</p>
+            <p class="text-light">
+              <i>Student of "Mastering Chess Openings"</i>
+            </p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="fs-4">
+              <q
+                ><i
+                  >The Sicilian Defense course gave me so many new ideas. My
+                  rating has already improved by 100 points!</i
+                ></q
+              >
+            </p>
+          </div>
+          <div class="col skill-student col-sm-6 col-12 col-md-4 p-5 m-2">
+            <img
+              class="pfp"
+              src="https://www.port.ac.uk/sites/default/files/styles/card_mobile/public/media/images/sitting-in-park.jpg?h=0c695b5a&itok=yx0sCsGt"
+              alt=""
+            />
+            <p class="fs-3 title">Maria Garcia</p>
+            <p class="text-light">
+              <i>Student of "Advanced Endgame Strategies"</i>
+            </p>
+            <p>⭐⭐⭐⭐⭐</p>
+            <p class="fs-4">
+              <q
+                ><i
+                  >I used to dread endgames, but the Advanced Endgame Strategies
+                  course made them my favorite part of the game. Excellent
+                  content!</i
+                ></q
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signup -->
+    <div class="signup-foot text-center p-5">
+      <h1 class="text-light my-4">Ready to Elevate Your Game?</h1>
+      <p class="my-4 footpara text-light">
+        Join ChessMastery Hub today and start your journey towards becoming<br />
+        a formidable chess player.
+      </p>
+      <button class="btn btn-warning my-4 fs-5 p-3">Sign Up For Free</button>
+    </div>
+    <div class="p-5 text-center text-secondary">
+      <ul>
+        <li><a class="main-foot" href="about.html">About Us</a></li>
+        <li><a class="main-foot" href="contact.html">Contact</a></li>
+        <li><a class="main-foot" href="faq.html">FAQ</a></li>
+        <li><a class="main-foot" href="privpol.html">Privacy Policy</a></li>
+      </ul>
+      <p>© 2025 ChessMastery Hub. All rights reserved.</p>
+    </div>
+  </body>
+</html>

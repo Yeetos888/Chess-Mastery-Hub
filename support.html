@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">♟ChessMastery Hub</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3">
+              <a
+                class="nav-link active p-3"
+                aria-current="page"
+                href="index.html#coursesec"
+                >Courses</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="signin.html"
+                ><button class="btn btn-success">Login</button>
+              </a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="signup.html"
+                ><button class="btn btn-warning">SignUp</button></a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="support.html"
+                ><button class="btn btn-info">Support</button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- form -->
+
+    <div class="container-fluid my-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card shadow-lg rounded-3">
+            <div class="card-header text-white text-center p-4 form-head">
+              <h4>Customer Support</h4>
+            </div>
+            <div class="card-body">
+              <form>
+                <!-- Name -->
+                <div class="my-4">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control p-3"
+                    id="name"
+                    placeholder="Enter your full name"
+                    required
+                  />
+                </div>
+
+                <!-- Email -->
+                <div class="my-4">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control p-3"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
+
+                <!-- Issue Type -->
+                <div class="my-4">
+                  <label for="issueType" class="form-label">Issue Type</label>
+                  <select class="form-select p-3" id="issueType" required>
+                    <option value="" selected disabled>Select issue</option>
+                    <option value="billing">Billing</option>
+                    <option value="technical">Technical</option>
+                    <option value="account">Account</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+
+                <!-- Message -->
+                <div class="my-4">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    class="form-control p-3"
+                    id="message"
+                    rows="4"
+                    placeholder="Describe your issue"
+                    required
+                  ></textarea>
+                </div>
+
+                <!-- File Upload -->
+                <div class="my-4">
+                  <label for="file" class="form-label"
+                    >Attach a file (optional)</label
+                  >
+                  <input type="file" class="form-control p-3" id="file" />
+                </div>
+
+                <!-- Submit -->
+                <button
+                  type="submit"
+                  class="btn text-light w-100 p-3 form-head"
+                >
+                  Submit Request
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- signup -->
+    <div class="signup-foot text-center p-3">
+      <h1 class="text-light my-4">Ready to Elevate Your Game?</h1>
+      <p class="my-4 footpara text-light">
+        Join ChessMastery Hub today and start your journey towards becoming<br />
+        a formidable chess player.
+      </p>
+      <button class="btn btn-warning my-4 fs-5 p-3">Sign Up For Free</button>
+    </div>
+    <div class="p-5 text-center text-secondary">
+      <nav>
+        <ul>
+          <li><a class="main-foot" href="about.html">About Us</a></li>
+          <li><a class="main-foot" href="contact.html">Contact</a></li>
+          <li><a class="main-foot" href="faq.html">FAQ</a></li>
+          <li><a class="main-foot" href="privpol.html">Privacy Policy</a></li>
+        </ul>
+      </nav>
+      <p>© 2025 ChessMastery Hub. All rights reserved.</p>
+    </div>
+  </body>
+</html>

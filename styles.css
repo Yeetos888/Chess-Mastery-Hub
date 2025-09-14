@@ -1,0 +1,81 @@
+nav {
+  background-color: #d4d4c0;
+}
+
+.header {
+  background-color: #415a73;
+}
+.skill {
+  border-radius: 15px;
+  background-color: #abab88;
+  width: 400px;
+}
+.courses {
+  border-radius: 15px;
+  background-color: #abab88;
+  padding: 25px;
+}
+body {
+  background-color: beige;
+}
+.testimonal {
+  margin-bottom: 50px;
+}
+.pfp {
+  width: 100px;
+  border-radius: 50%;
+}
+.title {
+  display: inline;
+  margin-left: 20px;
+}
+.box {
+  width: 75%;
+  margin: 0 auto;
+}
+.skill-student {
+  height: 400px;
+  width: 500px;
+  border-radius: 15px;
+  background-color: #abab88;
+  padding: 25px;
+}
+.signup-foot {
+  background-color: #415a73;
+}
+.footpara {
+  font-size: 25px;
+}
+li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 20px;
+}
+nav {
+  background-color: beige;
+}
+.form-head {
+  background-color: #415a73;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.sign-in {
+  border-radius: 20px;
+  background-color: #abab88;
+  padding: 25px;
+  margin: 5vw auto;
+}
+.signfoot {
+  color: white;
+  background-color: #415a73;
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+}
+.main-foot {
+  color: #6e757c;
+}
